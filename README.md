@@ -4,7 +4,9 @@ This report details the solution architecture, AI methodologies, data preparatio
 
 # How to Run
 1. Clone the repo to local
-2. Obtain a Gemini API Key and place it appropiately in the .env file in this repo
-3. Install all dependencies for this project using the command: $ pip install -r requirements.txt
-4. To run the application use the command: $ streamlit run app.py --server.fileWatcherType none
+2. Obtain a Gemini API Key
+3. Create a file at the root of the cloned repo and name it ".env"  
+4. Inside the .env file write this (without the "):  "GOOGLE_API_KEY=<<API-KEY>>"  (replace <<API-KEY>> with the key obtained in step 2)
+5. Install all dependencies for this project using the command: $ pip install -r requirements.txt
+6. To run the application use the command: $ streamlit run app.py --server.fileWatcherType none
 
